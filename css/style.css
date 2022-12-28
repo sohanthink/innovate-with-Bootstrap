@@ -27,9 +27,19 @@ common css ends here
     color: white;
     background-color: var(--Brand_color);
     border-radius: 25px;
+    transition: all linear 0.4s;
+    border: 1px solid #19bf0000;
+}
+.primary_button:hover{
+    background-color: inherit;
+    border: 1px solid #1BBF00;
 }
 .navbar_bg{
     background-color: #160c6da1;
+}
+.navbar{
+    z-index: 999;
+    position: relative;
 }
 
 /* ---------------------------
@@ -40,3 +50,14 @@ nav bar css ends here
     font-size: 84px;
     font-family: var(--primary_font);
 }
+.content p{
+    font-family: var(--secondary_font);
+    line-height: 40px;
+    font-size: 24px;
+    padding: 10px 280px;
+}
+
+
+/* ---------------------------
+ banner css ends here 
+-----------------------------*/
