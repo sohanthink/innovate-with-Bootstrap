@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,li{
+    list-style-type: none;
+}
+
+:root{
+    --Brand_color : #1BBF00;
+    --hover_color : #6B62C5;
+    --primary_font :'Open Sans', sans-serif;
+    --secondary_font : 'Paprika', cursive;
+}
+
+/* ---------------------------
+common css ends here 
+-----------------------------*/
+
+.primary_button{
+    font-family: var(--primary_font);
+    padding: 13px 23px;
+    color: white;
+    background-color: var(--Brand_color);
+    border-radius: 25px;
+}
+.navbar_bg{
+    background-color: #160c6da1;
+}
+
+/* ---------------------------
+nav bar css ends here 
+-----------------------------*/
+
+.content h1{
+    font-size: 84px;
+    font-family: var(--primary_font);
+}
