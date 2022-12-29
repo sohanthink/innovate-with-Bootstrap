@@ -34,12 +34,16 @@ common css ends here
     background-color: inherit;
     border: 1px solid #1BBF00;
 }
+
+/* ---------------------------
+primary css/ same designs ends here 
+-----------------------------*/
+
 .navbar_bg{
     background-color: #160c6da1;
 }
 .navbar{
     z-index: 999;
-    position: relative;
 }
 
 /* ---------------------------
@@ -60,4 +64,31 @@ nav bar css ends here
 
 /* ---------------------------
  banner css ends here 
+-----------------------------*/
+
+#counter{
+    padding: 180px 0;
+}
+#counter h2{
+    font-family: var(--primary_font);
+    font-size: 64px;
+    font-weight:900;
+    color: var(--Brand_color);
+}
+#counter h2{
+    font-family: var(--primary_font);
+    font-size: 36px;
+}
+#counter .content::after{
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: #4f585f9f;
+    right: 0;
+    top: 0;
+}
+
+/* ---------------------------
+ counter css ends here 
 -----------------------------*/
